@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/drawable/allbackground1.xml" value="0.3075" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/drawable/allbackground2.xml" value="0.3075" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/drawable/allbackground3.xml" value="0.3075" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/drawable/allbackgroundgradientlist.xml" value="0.1" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/drawable/login_btn_style.xml" value="0.1" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/drawable/submit_btn_custom.xml" value="0.1" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/drawable/text_pass_style.xml" value="0.1" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/drawable/text_style.xml" value="0.356" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/activity_admiissionform.xml" value="0.33" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/activity_admissionform.xml" value="0.25" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/activity_login2.xml" value="0.18" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/activity_register.xml" value="0.17054263565891473" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/activity_thankyou_exitsplash.xml" value="0.31765711842667804" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/content_scrolling.xml" value="0.25" />
+        <entry key="..\:/Android Projects/CUTM ADMISSION/app/src/main/res/layout/splast_activity.xml" value="0.1" />
+        <entry key="..\:/Users/Gyan Prakash Tiwari/Desktop/Student_Information_Management_System/app/src/main/res/layout/test_ui.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

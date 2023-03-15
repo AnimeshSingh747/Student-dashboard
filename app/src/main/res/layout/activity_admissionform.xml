@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Form_main_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#9E0522"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="NestedScrolling">
+
+        <RelativeLayout
+            android:id="@+id/kk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:clickable="false"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="396dp"
+                android:layout_height="280dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="0dp"
+                android:contentDescription="@string/todo5"
+                app:srcCompat="@drawable/centurion" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginEnd="72dp"
+                android:fontFamily="@font/amaranth"
+                android:text="@string/student_registration"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="229dp"
+                android:layout_height="36dp"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="160dp"
+                android:fontFamily="cursive"
+                android:text="@string/personal_information"
+                android:textColor="#FFC400"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/text_style"
+                android:backgroundTint="#D88F9D"
+                android:ems="10"
+                android:fontFamily="@font/amaranth"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName"
+
+                android:textAlignment="center"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                tools:ignore="Autofill,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="19dp"
+                android:layout_toEndOf="@+id/editTextTextPersonName2"
+                android:autofillHints=""
+                android:background="@drawable/text_style"
+                android:backgroundTint="#D88F9D"
+                android:ems="10"
+                android:fontFamily="@font/amaranth"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editTextNumberx"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@+id/editTextTextPersonName3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="19dp"
+                android:background="@drawable/text_style"
+                android:backgroundTint="#D88F9D"
+                android:ems="10"
+                android:fontFamily="@font/amaranth"
+                android:hint="@string/registration_number"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColorHint="@color/white"
+                tools:ignore="Autofill,TouchTargetSizeCheck" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="122dp"
+                android:layout_height="38dp"
+                android:layout_below="@+id/editTextNumberx"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="254dp"
+                android:fontFamily="cursive"
+                android:text="@string/gender"
+                android:textColor="#FFC400"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextNumberx"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:hint="@string/male"
+                    android:textColorHint="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:hint="@string/female"
+                    android:textColorHint="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/amaranth"
+                    android:hint="@string/transgender"
+                    android:textColorHint="@color/white" />
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/spinner_courses"
+                android:layout_width="351dp"
+                android:layout_height="48dp"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="19dp"
+                android:background="@drawable/text_style"
+                android:contentDescription="@string/Registered_Courses"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/spinner_states"
+                android:layout_width="351dp"
+                android:layout_height="48dp"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="19dp"
+                android:background="@drawable/text_style"
+                android:contentDescription="@string/Registered_States"
+                android:spinnerMode="dropdown" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_below="@+id/gender"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="172dp"
+                android:fontFamily="cursive"
+                android:text="Cource Registered :"
+                android:textColor="#FFC400"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="204dp"
+                android:layout_height="31dp"
+                android:layout_below="@+id/spinner_courses"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="172dp"
+                android:fontFamily="cursive"
+                android:text="Home State"
+                android:textColor="#FFC400"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner_states"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="194dp"
+                android:fontFamily="cursive"
+                android:text="@string/contact_details"
+                android:textColor="#FFC400"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints=""
+                android:background="@drawable/text_style"
+                android:backgroundTint="#D88F9D"
+                android:ems="10"
+                android:fontFamily="@font/amaranth"
+                android:hint="@string/student_contact_number"
+                android:inputType="phone"
+                android:textAlignment="center"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextPhone"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints=""
+                android:background="@drawable/text_style"
+                android:backgroundTint="#D88F9D"
+                android:ems="10"
+                android:fontFamily="@font/amaranth"
+                android:hint="@string/personal_email_id"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/editTextPhone2"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_below="@+id/editTextTextEmailAddress"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="24dp"
+                android:autofillHints=""
+                android:background="@drawable/text_style"
+                android:backgroundTint="#D88F9D"
+                android:ems="10"
+                android:fontFamily="@font/amaranth"
+                android:hint="@string/father_s_contact_number"
+                android:inputType="phone"
+                android:textAlignment="center"
+                android:textColorHint="@color/white" />
+
+            <Button
+                android:id="@+id/button_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextPhone2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="80dp"
+                android:background="@drawable/btncustom"
+                android:clickable="true"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imageBtn_cutm"
+                android:layout_width="55dp"
+                android:layout_height="49dp"
+                android:layout_below="@+id/button_submit"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="140dp"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:contentDescription="@string/todo6"
+                android:scaleType="centerInside"
+                android:src="@drawable/cutm_only_logo"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/cutm"
+        android:label="CUTM Dash"
+        android:roundIcon="@drawable/cutm"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cutm_Adm"
+        tools:targetApi="31">
+        <activity
+            android:name=".Adminpage"
+            android:exported="true">
+
+        </activity>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".thankyou_exitsplash"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".admissionform"
+            android:exported="true"
+            android:theme="@style/MyThemeNoActionBar" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashActionBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
