@@ -129,9 +129,9 @@ public class login extends AppCompatActivity {
 
             ScrollView scrollView = findViewById(R.id.mainLayout);
 
-            AnimationDrawable animationDrawable = (AnimationDrawable) scrollView.getBackground();
-        animationDrawable.setEnterFadeDuration(2500);
-        animationDrawable.setExitFadeDuration(5000);
-        animationDrawable.start();
+//            AnimationDrawable animationDrawable = (AnimationDrawable) scrollView.getBackground();
+//        animationDrawable.setEnterFadeDuration(2500);
+//        animationDrawable.setExitFadeDuration(5000);
+//        animationDrawable.start();
         }
     }
