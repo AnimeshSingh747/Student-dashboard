@@ -63,7 +63,7 @@ public class login extends AppCompatActivity {
                                                               Toast.makeText(login.this, "Successfully Logged in",Toast.LENGTH_SHORT).show();
 
                                                               //Starting student form
-                                                              startActivity(new Intent(login.this, admissionform.class));
+                                                              startActivity(new Intent(login.this, DashBoard.class));
                                                               finish();
                                                           }
                                                           else {
