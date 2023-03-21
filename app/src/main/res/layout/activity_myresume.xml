@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimg5"
+    tools:context=".myresume">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resumetitle"
+            android:text="Resume"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_200"
+            android:gravity="center"
+            android:layout_margin="25dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resumetitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="Name"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="Email Id"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailid"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="Phone Number"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phonenumber"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="Address"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/education"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="left"
+            android:text="Education"
+            android:textColor="@color/teal_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/coursename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/education"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="Course Name"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/universityname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/coursename"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="University Name"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/courseduration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/universityname"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="Course Duration"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/cgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courseduration"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="CGPA"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+
+
+        <EditText
+            android:id="@+id/schoolname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cgpa"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="School Name"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/schoolboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/schoolname"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="School Board"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/yearofcompletion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/schoolboard"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="year of Completion"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/percentage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/yearofcompletion"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="Percentage"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/addeducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/percentage"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="+ Add Education"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/jobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addeducation"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="left"
+            android:text="Jobs"
+            android:textColor="@color/teal_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addjobs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jobs"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="+ Add Jobs"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/internships"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addjobs"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="left"
+            android:text="Internships"
+            android:textColor="@color/teal_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addinternships"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/internships"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="+ Add Internships"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/positionofresposibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addinternships"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="left"
+            android:text="Position of Responsibility"
+            android:textColor="@color/teal_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addpositionofresponsibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/positionofresposibility"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="+ Add Positioon of Responsibility"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/trainingorcourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addpositionofresponsibility"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="left"
+            android:text="Training/Courses"
+            android:textColor="@color/teal_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addtrainingorcourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/trainingorcourses"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="+Add Training/Courses"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/academicorpersonalprojects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addtrainingorcourses"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="left"
+            android:text="Academic/Personal Project"
+            android:textColor="@color/teal_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addacademicorpersonalproject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/academicorpersonalprojects"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="+Add Academic/Personal project"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addacademicorpersonalproject"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="left"
+            android:text="Skills"
+            android:textColor="@color/teal_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addskills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/skills"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="+Add Skills"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/portfolioorworksample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addskills"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="left"
+            android:text="Portfolio/Work Sample"
+            android:textColor="@color/teal_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addportfolioorworksample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/portfolioorworksample"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="+Add Portfolio/Work Sample"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/accompleshmentoradditionaldetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addportfolioorworksample"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="left"
+            android:text="Accomplesment/Additional Details"
+            android:textColor="@color/teal_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addaccompleshmentoradditionaldetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/accompleshmentoradditionaldetails"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#500fffff"
+            android:drawablePadding="20dp"
+            android:hint="+Add Accompleshment/Additional Details"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -19,7 +19,9 @@
             android:layout_height="wrap_content"
             android:background="@color/blue"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            tools:ignore="MissingConstraints"></androidx.appcompat.widget.Toolbar>
+            tools:ignore="MissingConstraints">
+
+        </androidx.appcompat.widget.Toolbar>
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -38,6 +40,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
+
                 app:cardElevation="5dp"
                 app:cardMaxElevation="5dp">
 
