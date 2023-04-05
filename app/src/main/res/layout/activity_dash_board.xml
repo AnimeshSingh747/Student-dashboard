@@ -20,8 +20,37 @@
             android:background="@color/blue"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             tools:ignore="MissingConstraints">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STUDENT RESUME BUILDER"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                ></TextView>
+
+
+
 
         </androidx.appcompat.widget.Toolbar>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/FONT"
+            android:layout_height="wrap_content"
+            android:text="Hello."
+            android:textStyle="bold"
+            android:textSize="84sp"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/FONT2"
+            android:text="Welcome Back
+            STUDENT.."
+            android:textStyle="italic"
+            android:textSize="36sp"
+            android:textColor="@color/teal_200"
+            app:layout_constraintTop_toBottomOf="@+id/FONT"/>
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -32,7 +61,8 @@
             android:padding="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+            app:layout_constraintTop_toBottomOf="@+id/FONT2"
+           >
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -97,7 +127,7 @@
                         android:layout_below="@id/imageView13"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
-                        android:text="PRACTICE ZONE"
+                        android:text="CREDIT SCORE"
                         android:textSize="20sp"
                         android:textStyle="bold" />
                 </RelativeLayout>
@@ -179,7 +209,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/white"
-                        android:text="RESULTS"
+                        android:text="RESUME"
                         android:textSize="24sp"
                         android:textStyle="bold" />
                 </RelativeLayout>
