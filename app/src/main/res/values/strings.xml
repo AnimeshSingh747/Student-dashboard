@@ -139,6 +139,8 @@
     <string name="submit">Submit</string>
     <string name="todo5">TODO</string>
     <string name="todo6">TODO</string>
+    <string name="sign_up_with_cutm">Sign up with cutm</string>
+    <string name="register_now">Register now</string>
     <string-array name="States">
 
         <item>Andhra Pradesh</item>
