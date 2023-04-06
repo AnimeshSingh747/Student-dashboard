@@ -15,6 +15,15 @@
         android:theme="@style/Theme.Cutm_Adm"
         tools:targetApi="31">
         <activity
+            android:name=".Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Creditscore"
+            android:exported="false" />
+        <activity
+            android:name=".Profilepage"
+            android:exported="false" />
+        <activity
             android:name=".myresume"
             android:exported="false" />
         <activity
