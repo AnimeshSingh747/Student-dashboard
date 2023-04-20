@@ -50,7 +50,7 @@ public class DashBoard extends AppCompatActivity {
             public void onClick(View v) {
 
                 //open register activity
-                startActivity(new Intent(DashBoard.this, Profilepage.class));
+                startActivity(new Intent(DashBoard.this, Creditscore.class));
             }
         });
         ImageView FEEDBACK = (ImageView) this.findViewById(R.id.image11);
@@ -59,7 +59,7 @@ public class DashBoard extends AppCompatActivity {
             public void onClick(View v) {
 
                 //open register activity
-                startActivity(new Intent(DashBoard.this, Profilepage.class));
+                startActivity(new Intent(DashBoard.this, Feedback.class));
             }
         });
     }
